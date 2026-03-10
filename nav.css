@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+background-color: aqua;
+
+
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+#menu-toggle{
+    display: none;
+    font-size: 24px;
+    color:white;
+    cursor: pointer;
+}
+
+.search{
+    padding: 5px;
+    border: 1px solid black;
+    display: inline-flex;
+} 
+
+.search-box{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    /* float: initial; */
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+
+.nav-link a:hover{
+    color: red;
+}
