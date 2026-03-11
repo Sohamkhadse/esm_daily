@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: yellow;
 }
 
 
@@ -22,12 +23,19 @@ background-color: aqua;
 .logo{
     font-size: 24px;
     font-weight: bold;
+    background-color: blue;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 .nav-link{
+    position:relative;
     list-style: none;
     display: flex;
     gap: 25px;
+    flex-direction: column;
+    align-items: center;
+    /* grid-row: inherit; */
 }
 #menu-toggle{
     display: none;
@@ -55,3 +63,10 @@ background-color: aqua;
 .nav-link a:hover{
     color: red;
 }
+
+/* form{
+    heighgt: 100px;
+    width:100%;
+    background-color: green;
+    margin:auto
+} */
